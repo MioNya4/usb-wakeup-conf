@@ -13,6 +13,7 @@ make
 
 # run
 `sudo ./usb_wakeup_configuration`
+
 if not, then maybe `sudo -E ./usb_wakeup_configuration`
 or `pkexec ./usb_wakeup_configuration`
 or `sudo bash -c "DISPLAY=:0 ./usb_wakeup_configuration` may work for you
