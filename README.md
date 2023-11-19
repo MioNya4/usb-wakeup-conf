@@ -2,7 +2,10 @@
 gui tool to help configure which usb devices can wake up the laptop from sleeping on ram
 
 # build
+`sudo apt install build-essential gcc cmake`
 ```
+git clone https://github.com/MioNya4/usb-wakeup-conf
+cd usb-wakeup-conf
 mkdir build && cd build
 cmake ..
 make
