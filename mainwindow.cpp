@@ -64,6 +64,10 @@ void apply_dev(QString name, bool checked) {
 }
 
 void MainWindow::on_Refresh_clicked() {
+    for (int i=0; i<dev_size; i++) {
+        delete(items[i]);
+    }
+    delete(items);
     QStringList  devs = get_devices();
     dev_size = devs.size();
     QString siz = QString::number(devs.size());
