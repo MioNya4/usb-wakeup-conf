@@ -22,6 +22,10 @@ or `sudo bash -c "DISPLAY=:0 ./usb_wakeup_configuration` may work for you
 # how to use
 check box is checked if the device can wake the laptop, uncheck if u dont want this device to wake ur laptop up. Unchecking all of them should mostly be safe.
 
+
+then click apply button. changes are applied until reboot (for now). 
+if a new usb device is connected, click refresh button.
+
 ![text](https://github.com/MioNya4/usb-wakeup-conf/blob/main/Screenshot_20231119_165754.png)
 
 # todo
