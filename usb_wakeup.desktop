@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Icon=usb
+Name=usb wakeup daemon
+Exec=pkexec /usr/bin/usb_wakeup_daemon.sh
+NoDisplay=true
+X-systemd-skip=true
+
