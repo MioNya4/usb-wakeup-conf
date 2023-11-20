@@ -2,12 +2,9 @@
 Version=1.0
 Type=Application
 Name=usb wakeup tool
-GenericName=wake up devices configuration tool
-Comment=tool for configuring what usb devices can wake up ur laptop
 Icon=usb
-Categories=Accessories;tools;Utility;Tools;
+Categories=Accessories;Utility;
 Exec=usb_wakeup_configuration
-TryExec=usb_wakeup_tool
 StartupNotify=false
 Terminal=false
 SingleMainWindow=true
