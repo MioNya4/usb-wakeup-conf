@@ -4,7 +4,7 @@ usb_wakeup_configuration -a
 sleep 2
 while (inotifywait /sys/bus/usb/devices/*)
 do
-    sleep 3
+    sleep 1
     usb_wakeup_configuration -a
-    sleep 2
+    sleep 4
 done
