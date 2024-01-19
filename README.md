@@ -1,3 +1,6 @@
+ok so i was recently reading some kernel docs and i learned that we have such a thing as udev rules which are much better to use than watching for /sys/ changes with inotifywatch so i guess i will rewrite the entire thing so it will use udev rules instead soon idk
+
+
 # usb-wakeup-conf
 gui tool to help configure which usb devices can wake up the laptop from sleeping on ram
 
